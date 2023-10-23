@@ -2,7 +2,6 @@
   <div class="body" @paste="handlePaste">
     <h1>截图美化 ctrl+v</h1>
     <div class="box">
-      <input class="bg"  placeholder="在此粘贴图片">
       <div v-if="base64Images.length > 0" ref="downloadDiv">
         <div v-for="(base64Image, index) in base64Images" :key="index" class="wrap">
           <img :src="base64Image" alt="Pasted Image">
