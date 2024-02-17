@@ -64,7 +64,8 @@ body {
 .box .wrap {
   padding: 8%;
   box-sizing: border-box;
-  background: linear-gradient(300deg, #c56dbf, #c56d6f);
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #ff9e7f,#ff0466, #9558ff);
 }
 
 button {
